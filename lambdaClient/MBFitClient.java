@@ -13,12 +13,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import lambdaClient.Lactation.BreedEnum;
 
 /*  Copyright (C) 2008 DairySight LLC
- * type com.amazonaws.ClientConfiguration cannot be resolved. It is indirectly referenced from required .class files
-	- The type com.amazonaws.AmazonWebServiceClient cannot be resolved. It is indirectly referenced from required .class files
-	- The type com.amazonaws.auth.AWSCredentialsProvider cannot be resolved. It is indirectly referenced from 
-	 required .class files
-	- The type com.amazonaws.auth.AWSCredentials cannot be resolved. It is indirectly referenced from required .class files
-	
+ 	
  * Unless required by applicable law or agreed to in writing, this software  is distributed on an 
  * "AS IS" BASIS,  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  */

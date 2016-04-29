@@ -1,4 +1,4 @@
-#Java client for fitting lactations using the MilkBotFItter AWS Lambda function
+#Java client for fitting lactations using the MilkBotFitter AWS Lambda function
 
 This is a proof of concept project using the [AWS Lambda Function service](https://aws.amazon.com/lambda/). MBFitCLient.java creates a POJO LactationList object which is serialized to JSON and sent to the AWS Lambda service. The MilkBotFitter lambda service deserializes the LactationList, fits each lactation in the list, and returns a corresponding list of MilkBot parameter sets serialized as JSON. See the other Java classes in this package for the data model for LactationList and the returned MBParamsList objects. There are also some convenience methods in MBFitClient.java for creating test lactations and testing JSON serialization. 
 
